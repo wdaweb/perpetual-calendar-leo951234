@@ -87,8 +87,8 @@ $nextyear=$year;
 ?>
 
 <h2>
-<a href="calendar.php?month=<?php echo $premonth ?>&year=<?php echo $preyear ?>">上一月</a>
-<a href="calendar.php?month=<?php echo $nextmonth ?>&year=<?php echo $nextyear ?>">下一月</a>
+<a href="?month=<?php echo $premonth ?>&year=<?php echo $preyear ?>">上一月</a>
+<a href="?month=<?php echo $nextmonth ?>&year=<?php echo $nextyear ?>">下一月</a>
 
 </h2>
 
